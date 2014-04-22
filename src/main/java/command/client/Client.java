@@ -1,12 +1,10 @@
-package client;
-
-import receiver.CommandProcess;
-import receiver.CommandProcessForWindows;
+package command.client;
 
 import command.Command;
 import command.CommandInvoker;
-
-import concretecommand.ConcreteCommand;
+import command.concretecommand.ConcreteCommand;
+import command.receiver.CommandProcess;
+import command.receiver.CommandProcessForWindows;
 
 public class Client {
 

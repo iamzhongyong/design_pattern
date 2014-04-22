@@ -1,7 +1,7 @@
-package concretecommand;
+package command.concretecommand;
 
 import command.Command;
-import receiver.CommandProcess;
+import command.receiver.CommandProcess;
 
 public class ConcreteCommand implements Command{
 	private CommandProcess receiver;	

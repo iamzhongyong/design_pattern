@@ -1,4 +1,4 @@
-package receiver;
+package command.receiver;
 
 public class CommandProcessForWindows implements CommandProcess {
 

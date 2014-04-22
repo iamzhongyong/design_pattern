@@ -1,4 +1,4 @@
-package receiver;
+package command.receiver;
 //ÃüÁîµÄÖ´ĞĞÕß
 public interface CommandProcess {
 
