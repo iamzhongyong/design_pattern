@@ -2,7 +2,9 @@ package singleton;
 
 import java.lang.reflect.ReflectPermission;
 import java.security.Permission;
-
+/**
+ * 如何禁止外部通过反射来做单例对象的序列化
+ */
 public class SimpleReflectionSingleton {
 	
 	private SimpleReflectionSingleton(){}
