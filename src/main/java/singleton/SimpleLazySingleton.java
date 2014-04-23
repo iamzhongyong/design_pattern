@@ -7,8 +7,8 @@ public class SimpleLazySingleton {
 	//私有构造方法
 	private SimpleLazySingleton(){}
 	
-	//在类加载的时候，这个对象不进行实例化
-	private static SimpleLazySingleton instance = null;
+	//在类加载的时候，这个对象不进行实例化,volatile变量，拥有可见性
+	private static volatile SimpleLazySingleton instance = null;
 	
 	/**
 	 * @deprecated

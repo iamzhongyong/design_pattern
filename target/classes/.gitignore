@@ -1,7 +1,2 @@
-/client
 /command
-/concretecommand
-/receiver
 /singleton
-/commandpattern
-/commandconcretecommand
